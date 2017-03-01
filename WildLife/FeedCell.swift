@@ -36,6 +36,7 @@ class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewD
         feedCollectionView.delegate = self
         feedCollectionView.dataSource = self
         
+        
         //setting the CollectionView Size to the SuperClass Cell Size
         self.feedCollectionView.frame = self.bounds
         
@@ -45,10 +46,13 @@ class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "detailsCell", for: indexPath) as! detailsCell
-        cell.i = index
-        cell.animal = self.animal
-        return cell
+        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "detailsCell", for: indexPath) as? detailsCell {
+            cell.i = index
+            cell.animal = self.animal
+            
+            return cell
+        }
+        return UICollectionViewCell()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -57,9 +61,16 @@ class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewD
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let height = (frame.width - 8 - 8) * (9/16)
+        let cell = collectionView.cellForItem(at: indexPath) as? detailsCell
         
-        return CGSize(width: self.frame.width, height: self.frame.height + height)
+        if let aboutLabelHeight = cell?.aboutLabelHeight?.constant {
+            if let explanationLabelHeight = cell?.explanationLabelHeight?.constant {
+                return CGSize(width: self.frame.width, height: aboutLabelHeight + explanationLabelHeight + 300)
+            }
+        }
+        
+        
+        return CGSize(width: self.frame.width, height: self.frame.height + 300)
     }
     
     
