@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		CD144A9B1E617B190077BD6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144A9A1E617B190077BD6E /* AppDelegate.swift */; };
-		CD144A9D1E617B190077BD6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144A9C1E617B190077BD6E /* ViewController.swift */; };
-		CD144AA01E617B190077BD6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD144A9E1E617B190077BD6E /* Main.storyboard */; };
 		CD144AA21E617B190077BD6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD144AA11E617B190077BD6E /* Assets.xcassets */; };
 		CD144AA51E617B190077BD6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD144AA31E617B190077BD6E /* LaunchScreen.storyboard */; };
+		CD144AAD1E6181F00077BD6E /* WildLifeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144AAC1E6181F00077BD6E /* WildLifeTableVC.swift */; };
+		CD144AB01E61880C0077BD6E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144AAF1E61880C0077BD6E /* Animal.swift */; };
+		CD144AB21E6188BB0077BD6E /* Expantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144AB11E6188BB0077BD6E /* Expantion.swift */; };
+		CD144AB51E6189E50077BD6E /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD144AB41E6189E50077BD6E /* ApiService.swift */; };
+		CD5EC4521E6195CB0075BDEF /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CD5EC4511E6195CB0075BDEF /* data.json */; };
+		CD5EC4571E61B4440075BDEF /* WildLifeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5EC4561E61B4440075BDEF /* WildLifeTableViewCell.swift */; };
+		CD5EC4591E61C4FC0075BDEF /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5EC4581E61C4FC0075BDEF /* Extention.swift */; };
+		CD9513DF1E62115F008EE021 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9513DE1E62115F008EE021 /* DetailsViewController.swift */; };
+		CD9513E11E62202C008EE021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9513E01E62202C008EE021 /* Main.storyboard */; };
+		CD9513E41E649DCB008EE021 /* detailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9513E31E649DCB008EE021 /* detailsCell.xib */; };
+		CD9513E61E64A02C008EE021 /* detailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9513E51E64A02C008EE021 /* detailsCell.swift */; };
+		CD9513EA1E64A2F5008EE021 /* FeedCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9513E91E64A2F5008EE021 /* FeedCollectionView.xib */; };
+		CD9513EC1E64A312008EE021 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9513EB1E64A312008EE021 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD144A971E617B190077BD6E /* WildLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD144A9A1E617B190077BD6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD144A9C1E617B190077BD6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD144A9F1E617B190077BD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD144AA11E617B190077BD6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD144AA41E617B190077BD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD144AA61E617B190077BD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD144AAC1E6181F00077BD6E /* WildLifeTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WildLifeTableVC.swift; sourceTree = "<group>"; };
+		CD144AAF1E61880C0077BD6E /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		CD144AB11E6188BB0077BD6E /* Expantion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expantion.swift; sourceTree = "<group>"; };
+		CD144AB41E6189E50077BD6E /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CD5EC4511E6195CB0075BDEF /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		CD5EC4561E61B4440075BDEF /* WildLifeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WildLifeTableViewCell.swift; sourceTree = "<group>"; };
+		CD5EC4581E61C4FC0075BDEF /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		CD9513DE1E62115F008EE021 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CD9513E01E62202C008EE021 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD9513E31E649DCB008EE021 /* detailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailsCell.xib; sourceTree = "<group>"; };
+		CD9513E51E64A02C008EE021 /* detailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailsCell.swift; sourceTree = "<group>"; };
+		CD9513E91E64A2F5008EE021 /* FeedCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedCollectionView.xib; sourceTree = "<group>"; };
+		CD9513EB1E64A312008EE021 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,73 @@
 		CD144A991E617B190077BD6E /* WildLife */ = {
 			isa = PBXGroup;
 			children = (
-				CD144A9A1E617B190077BD6E /* AppDelegate.swift */,
-				CD144A9C1E617B190077BD6E /* ViewController.swift */,
-				CD144A9E1E617B190077BD6E /* Main.storyboard */,
-				CD144AA11E617B190077BD6E /* Assets.xcassets */,
+				CD144AB31E6189C20077BD6E /* ApiService */,
+				CD5EC4551E61B3D70075BDEF /* Extention */,
+				CD9513E21E649DBA008EE021 /* View */,
+				CD144AAE1E6187D90077BD6E /* Model */,
+				CD144AAC1E6181F00077BD6E /* WildLifeTableVC.swift */,
+				CD9513DE1E62115F008EE021 /* DetailsViewController.swift */,
+				CD5EC4561E61B4440075BDEF /* WildLifeTableViewCell.swift */,
+				CD9513E01E62202C008EE021 /* Main.storyboard */,
 				CD144AA31E617B190077BD6E /* LaunchScreen.storyboard */,
+				CD144AA11E617B190077BD6E /* Assets.xcassets */,
+				CD144A9A1E617B190077BD6E /* AppDelegate.swift */,
+				CD5EC4511E6195CB0075BDEF /* data.json */,
 				CD144AA61E617B190077BD6E /* Info.plist */,
 			);
 			path = WildLife;
+			sourceTree = "<group>";
+		};
+		CD144AAE1E6187D90077BD6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD144AAF1E61880C0077BD6E /* Animal.swift */,
+				CD144AB11E6188BB0077BD6E /* Expantion.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD144AB31E6189C20077BD6E /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				CD144AB41E6189E50077BD6E /* ApiService.swift */,
+			);
+			name = ApiService;
+			sourceTree = "<group>";
+		};
+		CD5EC4551E61B3D70075BDEF /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				CD5EC4581E61C4FC0075BDEF /* Extention.swift */,
+			);
+			name = Extention;
+			sourceTree = "<group>";
+		};
+		CD9513E21E649DBA008EE021 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD9513E81E64A2D2008EE021 /* CustomCells */,
+				CD9513E71E64A2C7008EE021 /* XIB */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CD9513E71E64A2C7008EE021 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				CD9513E91E64A2F5008EE021 /* FeedCollectionView.xib */,
+				CD9513E31E649DCB008EE021 /* detailsCell.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+		CD9513E81E64A2D2008EE021 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				CD9513E51E64A02C008EE021 /* detailsCell.swift */,
+				CD9513EB1E64A312008EE021 /* FeedCell.swift */,
+			);
+			name = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD144AA51E617B190077BD6E /* LaunchScreen.storyboard in Resources */,
+				CD9513E41E649DCB008EE021 /* detailsCell.xib in Resources */,
 				CD144AA21E617B190077BD6E /* Assets.xcassets in Resources */,
-				CD144AA01E617B190077BD6E /* Main.storyboard in Resources */,
+				CD5EC4521E6195CB0075BDEF /* data.json in Resources */,
+				CD9513EA1E64A2F5008EE021 /* FeedCollectionView.xib in Resources */,
+				CD9513E11E62202C008EE021 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +220,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD144A9D1E617B190077BD6E /* ViewController.swift in Sources */,
+				CD144AB21E6188BB0077BD6E /* Expantion.swift in Sources */,
+				CD9513EC1E64A312008EE021 /* FeedCell.swift in Sources */,
+				CD5EC4591E61C4FC0075BDEF /* Extention.swift in Sources */,
+				CD144AB51E6189E50077BD6E /* ApiService.swift in Sources */,
+				CD9513DF1E62115F008EE021 /* DetailsViewController.swift in Sources */,
 				CD144A9B1E617B190077BD6E /* AppDelegate.swift in Sources */,
+				CD144AAD1E6181F00077BD6E /* WildLifeTableVC.swift in Sources */,
+				CD5EC4571E61B4440075BDEF /* WildLifeTableViewCell.swift in Sources */,
+				CD9513E61E64A02C008EE021 /* detailsCell.swift in Sources */,
+				CD144AB01E61880C0077BD6E /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD144A9E1E617B190077BD6E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD144A9F1E617B190077BD6E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CD144AA31E617B190077BD6E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,6 +383,7 @@
 				CD144AAB1E617B190077BD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

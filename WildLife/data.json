@@ -1,0 +1,85 @@
+{
+    "title": "Wildlife of South Africa",
+    "paragraphs": [
+        {
+            "caption": "Introduction",
+            "text": "South Africa has a large variety of wildlife, including snakes, birds, plains animals, and predators. The country has 299 species of mammals and 858 species of birds.",
+            "images": []
+        },
+        {
+            "caption": "Cape Buffalo",
+            "text": "The Cape Buffalo, also known as the African cook, is a powerful animal that has few natural enemies. Their power and size means that they are very much able to defend themselves. They have been known to kill lions, hyena, humans, and other wild predators. Because of this they have taken their place in the African big five, elephants, lions, Cape buffalo, rhinoceroses, and leopards. (The big five are known to be some of the most dangerous and aggressive animals in Africa.) Another African name for the Cape buffalo is black death, because of their colour and their aggressive behaviour.",
+            "images": [
+                {
+                    "name": "Cape buffalo",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/African_Buffalo.JPG",
+                    "explanation": "The African buffalo or Cape buffalo (Syncerus caffer) is a large African bovine. It is not closely related to the slightly larger wild water buffalo of Asia and its ancestry remains unclear. Syncerus caffer caffer, the Cape buffalo, is the typical subspecies, and the largest one, found in South and East Africa. S. c. nanus (African forest buffalo) is the smallest subspecies, common in forest areas of Central and West Africa, while S. c. brachyceros is in West Africa and S. c. aequinoctialis is in the savannas of Central Africa. The adult buffalo's horns are its characteristic feature; they have fused bases, forming a continuous bone shield across the top of the head referred to as a \"boss\". They are widely regarded as very dangerous animals, as they gore and kill over 200 people every year."
+                }
+            ]
+        },
+        {
+            "caption": "Gemsbok",
+            "text": "The African oryx gazelle also known as gemsbuck or gemsbok are African plains animals that travel in groups of 10-45. The gemsbuck's groups are set up with a dominant male and in most cases a few dominant females. Male's horns are straight and pointed at the tip. Because of this they have been known to impale attacking lions. Female horns can be the same but sometimes they are curved backward. There are two different varieties of gemsbok, the southern and the northern. The southern variety have longer horns and the northern have black fringed ears. The northern gemsbok are rarely seen in South Africa.",
+            "images": [
+                {
+                    "name": "Gemsbok",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Oryx_gazella_PICT1415.JPG",
+                    "explanation": "Gemsbok are light brownish-grey to tan in colour, with lighter patches toward the bottom rear of the rump. Their tails are long and black in colour. A blackish stripe extends from the chin down the lower edge of the neck, through the juncture of the shoulder and leg along the lower flank of each side to the blackish section of the rear leg. They have muscular necks and shoulders, and their legs have white 'socks' with a black patch on the front of both the front legs, and both genders have long, straight horns. Comparably, the East African oryx lacks a dark patch at the base of the tail, has less black on the legs (none on the hindlegs), and less black on the lower flanks. One very rare condition is the \"Golden Oryx\", in which the Gemsboks black markings are muted and now appear golden. Gemsbok are the largest species in the Oryx genus. They stand about 1.2 m (3.9 ft) at the shoulder. The body length can vary from 190 to 240 cm (75 to 94 in) and the tail measures 45 to 90 cm (18 to 35 in). Male gemsbok can weigh between 180 and 240 kg (400 and 530 lb), while females weigh 100–210 kg (220–460 lb)."
+                }
+            ]
+        },
+        {
+            "caption": "Kudu",
+            "text": "The kudu are split into two different groups, greater kudu and lesser kudu. The greater kudu are regularly found in South Africa. Like the gemsbok, kudu are African antelope. They are fast and stealthy. They are a brown-grey colour with white stripes that go down the centre of their body. For those two facts their African name is grey ghost. The males have tall spiraling horns, females regularly have no horns. Kudu are peaceful and are normally not dangerous.",
+            "images": [
+                {
+                    "name": "Greater kudu",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/KuduKrüger.jpg",
+                    "explanation": "Greater kudus have a narrow body with long legs, and their coats can range from brown/bluish grey to reddish brown. They possess between 4 and 12 vertical white stripes along their torso. The head tends to be darker in colour than the rest of the body, and exhibits a small white chevron which runs between the eyes."
+                },
+                {
+                    "name": "Lesser kudu",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lesser_Kudu.jpg",
+                    "explanation": "The lesser kudu (Tragelaphus imberbis) is a forest antelope found in East Africa. It is placed in the genus Tragelaphus and family Bovidae. It was first described by the English zoologist Edward Blyth in 1869. The head-and-body length is typically 110–140 cm (43–55 in). Males reach about 95–105 cm (37–41 in) at the shoulder, while females reach 90–100 cm (35–39 in). Males typically weigh 92–108 kg (203–238 lb) and females 56–70 kg (123–154 lb). The females and juveniles have a reddish-brown coat, while the males become yellowish grey or darker after the age of two years. Horns are present only on males. The spiral horns are 50–70 cm (20–28 in) long, and have two to two-and-a-half twists."
+                }
+            ]
+        },
+        {
+            "caption": "Leopards",
+            "text": "Leopards are the most reclusive of the big cats. They are opportunistic hunters and will prey upon smaller mammals and rodents when other food sources are unavailable. The diet of leopards consists primarily of ungulates such as Thomson's gazelles. Leopards have relatively small physical builds in comparison to lions and therefore choose to hunt nocturnally to prevent the possibility of confrontation. In order to protect themselves and preserve their kills, leopards have developed exceptional climbing skills, allowing them to scale.",
+            "images": [
+                {
+                    "name": "African leopard",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Leopard_africa.jpg",
+                    "explanation": "The leopard (Panthera pardus) /ˈlɛpərd/ is one of the five \"big cats\" in the genus Panthera. It is a member of the family Felidae with a wide range in sub-Saharan Africa and parts of Asia. Fossil records found in Italy suggest that in the Pleistocene it ranged as far west as Europe and as far east as Japan. Compared to other members of Felidae, the leopard has relatively short legs and a long body with a large skull. It is similar in appearance to the jaguar, but has a smaller, lighter physique. Its fur is marked with rosettes similar to those of the jaguar, but the leopard's rosettes are smaller and more densely packed, and do not usually have central spots as the jaguar's do. Both leopards and jaguars that are melanistic are known as black panthers."
+                },
+                {
+                    "name": "Leopard skin",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Panthera_pardus_%28Leopard_%28Kongo%29%29.jpg",
+                    "explanation": "Dark-coloured leopard skin"
+                }
+            ]
+        },
+        {
+            "caption": "Snakes",
+            "text": "Lots of frickin' dangerous snakes out there - you have been warned, dudettes!",
+            "images": [
+                {
+                    "name": "Eastern green mamba",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Mamba_Dendroaspis_angusticeps.jpg",
+                    "explanation": "The eastern green mamba (Dendroaspis angusticeps), also known as the common mamba, East African green mamba, green mamba, or white-mouthed mamba, is a large, tree-dwelling, highly venomous snake species of the mamba genus Dendroaspis. This species of mamba was first described by a Scottish surgeon and zoologist in 1849. This snake mostly inhabits the coastal regions of southern East Africa. Adult females average approximately 2.0 metres (6.6 ft) in length, and males are slightly smaller. Eastern green mambas prey on birds, eggs, bats, and rodents such as mice, rats, and gerbils. They are shy and elusive snakes which are rarely seen, making them somewhat unusual among mambas, and elapids in general. This elusiveness is usually attributed to the species' green colouration which blends with its environment, and its arboreal lifestyle. However, eastern green mambas have also been observed to use \"sit-and-wait\" or ambush predation like many vipers, unlike the active foraging style typical of other elapids, which may be a factor in the rarity of sightings."
+                },
+                {
+                    "name": "Black mamba",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Dendroaspis_polylepis_%2814%29.jpg",
+                    "explanation": "The black mamba (Dendroaspis polylepis) is a venomous snake endemic to parts of sub-Saharan Africa. Specimens vary in color from grey to dark brown, but not black. Juvenile black mambas tend to be lighter in color than adults and darken with age. It is the longest species of venomous snake indigenous to the African continent; mature specimens generally exceed 2 meters (6.6 ft) and commonly attain 3 meters (9.8 ft). Specimens of 4.3 to 4.5 meters (14.1 to 14.8 ft) have been reported."
+                },
+                {
+                    "name": "Cape cobra",
+                    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Naja_nivea.jpg",
+                    "explanation": "The Cape cobra (Naja nivea), also called the yellow cobra is a moderate-sized, highly venomous species of cobra inhabiting a wide variety of biomes across southern Africa including arid savanna, fynbos, bushveld, desert and semi-desert regions. The species is diurnal and is a feeding generalist, preying on a number of different species and carrion. Predators of this species include birds of prey, honey badgers and various species of mongoose. The Cape cobra is also known as the \"geelslang\" (yellow snake) and \"bruinkapel\" (brown cobra) in South Africa. Afrikaans speaking South Africans also refer to the Cape cobra as \"koperkapel\" (\"copper cobra\"), mainly because of a rich yellow colour variation. This species has no known subspecies."
+                }
+            ]
+        }
+    ]
+}

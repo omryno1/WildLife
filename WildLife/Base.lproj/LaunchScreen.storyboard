@@ -1,7 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +21,58 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bear-logo" translatesAutoresizingMaskIntoConstraints="NO" id="vTM-Uf-3sk">
+                                <rect key="frame" x="78" y="104" width="218" height="191"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="191" id="F17-aP-8dc"/>
+                                    <constraint firstAttribute="width" constant="218" id="a9b-Gz-lPC"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="q8o-Ug-HzN">
+                                <rect key="frame" x="67" y="360" width="240" height="1"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="pNL-Ik-MZA"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="747" text="Get to know the wild" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-Ok-oCZ">
+                                <rect key="frame" x="87" y="369" width="200" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="d5q-Hu-vPy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wild Life" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0q2-zg-43P">
+                                <rect key="frame" x="123.5" y="313" width="128" height="44"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.89019607840000003" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vTM-Uf-3sk" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="84" id="4ZQ-Pl-XTk"/>
+                            <constraint firstItem="B6D-Ok-oCZ" firstAttribute="centerX" secondItem="vTM-Uf-3sk" secondAttribute="centerX" id="5Re-fG-OXs"/>
+                            <constraint firstItem="vTM-Uf-3sk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AXz-XY-4bS"/>
+                            <constraint firstItem="q8o-Ug-HzN" firstAttribute="centerX" secondItem="0q2-zg-43P" secondAttribute="centerX" id="CMV-pZ-TEf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q8o-Ug-HzN" secondAttribute="trailing" constant="52" id="Nga-xV-WBp"/>
+                            <constraint firstItem="q8o-Ug-HzN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="Yni-9R-KIo"/>
+                            <constraint firstItem="B6D-Ok-oCZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="71" id="dh5-wP-sZO"/>
+                            <constraint firstItem="B6D-Ok-oCZ" firstAttribute="top" secondItem="q8o-Ug-HzN" secondAttribute="bottom" constant="8" symbolic="YES" id="en7-4B-OeT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="B6D-Ok-oCZ" secondAttribute="bottom" constant="280" id="er3-H9-Leb"/>
+                            <constraint firstItem="q8o-Ug-HzN" firstAttribute="top" secondItem="0q2-zg-43P" secondAttribute="bottom" constant="3" id="fB8-bp-E6f"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="37.600000000000001" y="234.33283358320841"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bear-logo" width="1240" height="1101"/>
+    </resources>
 </document>
