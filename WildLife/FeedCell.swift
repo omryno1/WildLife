@@ -8,10 +8,9 @@
 
 import UIKit
 
-class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout, UIScrollViewDelegate {
     
     @IBOutlet var feedCollectionView: UICollectionView!
-    
     var animal : Animal?
     var index : Int?
     
@@ -28,6 +27,7 @@ class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewD
         //Loading the collectionView XIB
         Bundle.main.loadNibNamed("FeedCollectionView", owner: self, options: nil)
         self.addSubview(feedCollectionView)
+
         
         //Loading cell XIB
         let nib = UINib(nibName: "detailsCell", bundle: nil)
@@ -72,6 +72,8 @@ class FeedCell :UICollectionViewCell ,UICollectionViewDelegate,UICollectionViewD
         
         return CGSize(width: self.frame.width, height: self.frame.height + 300)
     }
+    
+
     
     
     

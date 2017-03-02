@@ -30,7 +30,7 @@ class detailsCell: UICollectionViewCell {
             if let expla = animal?.more?[i!].explanation{
                 let size = CGSize(width: frame.width - 16 , height: 1000)
                 
-                let estimatedExplanation = NSString(string: expla).boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize:18)] , context: nil)
+                let estimatedExplanation = NSString(string: expla).boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize:19)] , context: nil)
                 explanationLabelHeight?.constant = estimatedExplanation.size.height
 
             }
@@ -38,7 +38,7 @@ class detailsCell: UICollectionViewCell {
             if let about = animal?.info {
                 let size = CGSize(width: frame.width - 16 , height: 1000)
                 
-                let estimatedAbout = NSString(string: about).boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize:15)] , context: nil)
+                let estimatedAbout = NSString(string: about).boundingRect(with: size, options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: UIFont.systemFont(ofSize:16)] , context: nil)
                 aboutLabelHeight?.constant = estimatedAbout.size.height + 5
             }
             

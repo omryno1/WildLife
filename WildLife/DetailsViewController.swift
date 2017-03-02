@@ -12,17 +12,31 @@ class DetailsViewController: UIViewController, UICollectionViewDataSource, UICol
     
     @IBOutlet weak var mainCollectionView: UICollectionView!
     
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+    
     var pickedAnimal : Animal? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupMainCollectionView()
+        setupPageControl()
     }
     
     func setupMainCollectionView(){
         mainCollectionView.delegate = self
         mainCollectionView.dataSource = self
 
+    }
+    
+    func setupPageControl(){
+        if let numberOfPages = pickedAnimal?.more?.count {
+            self.pageControl.numberOfPages = numberOfPages
+            self.pageControl.currentPage = 0
+            self.pageControl.pageIndicatorTintColor = UIColor.gray
+            self.pageControl.currentPageIndicatorTintColor =  UIColor(red: 239, green: 227, blue: 115, alpha: 1)
+
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -50,6 +64,10 @@ class DetailsViewController: UIViewController, UICollectionViewDataSource, UICol
         return 0
     }
     
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let pageWidth = mainCollectionView.frame.size.width
+        pageControl.currentPage = Int(self.mainCollectionView.contentOffset.x / pageWidth)
+    }
 
     
 
