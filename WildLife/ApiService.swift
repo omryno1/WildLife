@@ -6,7 +6,7 @@
 //  Copyright © 2017 Omry Dabush. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class ApiService: NSObject {
     
@@ -35,16 +35,16 @@ class ApiService: NSObject {
                                 animal.info = dictionary["text"] as? String
                                 
                                 //iteraring on the "images" JSON Array object & assigning data to a expantin
-                                if let imageArr = dictionary["images"]{
+                                if let imageArr = dictionary["images"] as? [[String : Any]]{
                                     if imageArr.count != 0{
-                                        for index in 0...imageArr.count - 1{
+                                        for item in imageArr{
                                             let expantion = Expantion()
                                             
-                                            let moreData = imageArr[index] as! [String : AnyObject]
+//                                            let moreData = imageArr[index] as! [String : AnyObject]
                                             
-                                            expantion.name = moreData["name"] as? String
-                                            expantion.imageUrl = moreData["url"] as? String
-                                            expantion.explanation = moreData["explanation"] as? String
+                                            expantion.name = item["name"] as? String
+                                            expantion.imageUrl = item["url"] as? String
+                                            expantion.explanation = item["explanation"] as? String
                                             more.append(expantion)
                                             
                                         }

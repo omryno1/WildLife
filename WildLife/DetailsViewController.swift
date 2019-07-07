@@ -34,7 +34,7 @@ class DetailsViewController: UIViewController, UICollectionViewDataSource, UICol
             self.pageControl.numberOfPages = numberOfPages
             self.pageControl.currentPage = 0
             self.pageControl.pageIndicatorTintColor = UIColor.gray
-            self.pageControl.currentPageIndicatorTintColor =  UIColor(red: 239, green: 227, blue: 115, alpha: 1)
+            self.pageControl.currentPageIndicatorTintColor =  UIColor.white
 
         }
     }

@@ -39,8 +39,8 @@ class CustomeImageView: UIImageView {
         }
         
         URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
-            if (error != nil){
-                print (error as! NSError)
+            if error != nil{
+                print (error ?? "")
             }
             
             // Bounce back to the main thread to update the UI
