@@ -8,4 +8,4 @@ Main page, allows you to pick an animal
 
 
 After selecting an animal
-![Alt text](https://drive.google.com/uc?export=view&id=1iKwJqKGLb6C_dPhi5ogEAe54Ar8O "After selecting an animal")
+![Alt text](https://drive.google.com/uc?export=view&id=1iKwJqKGLb6C_dPhi5ogEAe54Ar8O_ffx "After selecting an animal")
